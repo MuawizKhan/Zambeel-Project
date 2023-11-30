@@ -6,7 +6,7 @@ driver = webdriver.Chrome("C:\\Users\\muawi\\OneDrive\\Documents\\Study\\Zambeel
 driver.get("https://zambeel.lums.edu.pk/psp/ps/?cmd=login")
 for i in range(0,300):
     userid = "241000" + str(i)
-    if i == 52:
+    if i == 52 or i == 48:
         continue
     for j in range(3):
 
